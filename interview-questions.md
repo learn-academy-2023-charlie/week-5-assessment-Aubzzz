@@ -8,13 +8,13 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 1. What does calling super do in a Ruby class?
 
-Your answer:
+Your answer:I do not currently recall, but I can get back to you with an answer.
 
 Researched answer:
 
 2. What is a gem?
 
-Your answer:
+Your answer: A gem is a database management system that Ruby utilizes for 
 
 Researched answer:
 
@@ -26,7 +26,7 @@ Researched answer:
 
 4. What are primary keys? Why purpose does a primary key serve?
 
-Your answer:
+Your answer: Primary keys
 
 Researched answer:
 
