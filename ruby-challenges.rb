@@ -3,6 +3,16 @@
 
 # --------------------1) Create a method that takes in an array of words and a single letter and returns an array of all the words containing that particular letter. Use the test variables provided.
 
+#Pseudo Code
+#Process: create a method using def and end.
+#create a new variable that has an empty array
+#array.each will iterate through the array
+#do |array| to pass the argument of the array
+#create conditional statement
+#struggled with placement of array and new_words variable
+
+#output: Unexpected amount of arguments given
+
 beverages_array = ['coffee', 'tea', 'juice', 'water', 'soda water']
 
 filter_letter_o = 'o'
@@ -10,14 +20,15 @@ filter_letter_o = 'o'
 filter_letter_t = 't'
 # Expected output: ['tea', 'water', 'soda water']
 
-def filtered_words (words, letter)
+def filtered_words (array, string)
     new_words = []
-    words.each do |word|
-        if word.includes?("o")
-            selected.words << word 
+    array.each do |array|
+        if new_words.include?(string)
+            selected.string << string 
         end
+    end
 end
-p new_words
+p filtered_words(filter_letter_o)
 
 
 # -------------------2) Create a method that takes in a hash and returns one array with all the hash values at their own index and in alphabetical order. No nested arrays. Use the test variable provided.
@@ -25,6 +36,16 @@ p new_words
 
 # us_states = { northwest: ['Washington', 'Oregon', 'Idaho'], southwest: ['California', 'Arizona', 'Nevada'], notheast: ['Maine', 'New Hampshire', 'Rhode Island'] }
 # # Expected output: ['Arizona', 'California', 'Idaho', 'Maine', 'Nevada', 'New Hampshire', 'Oregon', 'Rhode Island', 'Washington'] 
+
+
+
+
+
+
+
+
+
+
 
 
 # --------------------3a) Create a class called Bike that is initialized with a model, wheels, and current_speed. The default number of wheels is 2. The current_speed should start at 0. Create a bike_info method that returns a sentence with all the data from the bike object.
