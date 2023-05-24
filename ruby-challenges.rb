@@ -44,18 +44,12 @@ us_states = {
 #use .sort to put the hash in alphabetical order
 #set the equivelent of the new array to the hash that has been sorted??
 #figure out how to use .flatten to get rid of the nested arrays
-# 
+# OUTPUT: Wrong number of arguments given
 def sorted_array (hash)
-    #access the arrays through the hash using a .notation to access the next level down
-    #make them one using .flatten
-    #sort them out
- #one line in the def, how to pull an array from a hash/object 
+    values = hash.values.flatten
+    values.sort
 end
-
-array2 = array1.flatten
-alphabetize arr
-hash.sort
-
+p sorted_array(sorted_array, us_states)
 
 
 
@@ -70,22 +64,22 @@ hash.sort
 #create a new variable called bike_shopping, to add a new Bike to the class Bike
 #print the bike_shopping.bike_info to call the new method and the string in that order to return the new variable in the Bike class
 #OUTPUT: "The Trek bike has 2 and is going 0."
-class Bike
-    attr_reader :model, :wheels, :current_speed
+# class Bike
+#     attr_reader :model, :wheels, :current_speed
     
-    def initialize(model)
-        @model = model
-        @wheels = 2
-        @current_speed = 0 #do I put a numerical value here?
-    end 
+#     def initialize(model)
+#         @model = model
+#         @wheels = 2
+#         @current_speed = 0 #do I put a numerical value here?
+#     end 
 
-    def bike_info
-        "The #{@model} bike has #{@wheels} and is going #{@current_speed}."
-    end
-end
+#     def bike_info
+#         "The #{@model} bike has #{@wheels} and is going #{@current_speed}."
+#     end
+# end
 
-bike_shopping = Bike.new('Trek')
-p bike_shopping.bike_info
+# bike_shopping = Bike.new('Trek')
+# p bike_shopping.bike_info
 
 
 
